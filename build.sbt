@@ -1,3 +1,5 @@
+import Dependencies._
+
 lazy val typeclass_json = (project in file("."))
   .settings(
     name := "typeclass_json",
