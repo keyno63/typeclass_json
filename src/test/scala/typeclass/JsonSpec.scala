@@ -1,8 +1,8 @@
 package typeclass
 
-import org.scalatest.{FlatSpec, Matchers}
+import org.scalatest._
 
-class JsonSpec extends FlatSpec with Matchers {
+class JsValueSpec extends FlatSpec with Matchers {
 
   val template: JsValue = JsObject(
     Map(
@@ -109,4 +109,5 @@ class JsonSpec extends FlatSpec with Matchers {
     }
 
   }
+
 }
