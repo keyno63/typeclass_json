@@ -107,7 +107,6 @@ class JsValueSpec extends FlatSpec with Matchers {
     intercept[NoSuchElementException] {
       (template \ "location")("latitude")
     }
-
   }
 
 }
