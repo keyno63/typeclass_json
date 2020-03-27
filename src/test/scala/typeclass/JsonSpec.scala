@@ -99,7 +99,6 @@ class JsValueSpec extends FlatSpec with Matchers {
     intercept[NoSuchElementException] {
       json("bar")
     }
-
   }
 
   "JsValue" should "get value throws exception (3)" in {
