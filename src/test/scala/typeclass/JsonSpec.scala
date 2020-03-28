@@ -90,7 +90,6 @@ class JsValueSpec extends FlatSpec with Matchers {
     val result: JsValue = template("residents")(0)("name")
     val answer          = JsString("Fiver")
     result shouldEqual answer
-
   }
 
   "JsValue" should "get value throws exception (2)" in {
